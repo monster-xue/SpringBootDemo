@@ -27,6 +27,7 @@ public class HelloController {
         String s1 = "";
         String key = String.format("%s-%s", s, s1);
         System.out.println(key);
+        System.out.println(s);
     }
 
 
