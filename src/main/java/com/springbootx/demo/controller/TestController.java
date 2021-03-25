@@ -15,6 +15,7 @@ public class TestController {
     public JSONObject hello(@RequestBody JSONObject param) {
         System.out.println(JSONObject.toJSONString(param));
         System.out.println(param);
+        System.out.println("testgit");
         return param;
     }
 }
