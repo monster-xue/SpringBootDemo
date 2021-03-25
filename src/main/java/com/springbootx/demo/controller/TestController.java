@@ -16,6 +16,7 @@ public class TestController {
         System.out.println(JSONObject.toJSONString(param));
         System.out.println(param);
         System.out.println("testgit");
+        System.out.println("testgit2");
         return param;
     }
 }
